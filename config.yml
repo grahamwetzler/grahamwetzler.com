@@ -1,0 +1,36 @@
+theme: PaperMod
+title: Graham Wetzler
+LanguageCode: en-us
+
+author:
+  name: Graham Wetzler
+menu:
+  main:
+    - name: Posts
+      url: /posts
+
+params:
+  disableThemeToggle: true
+  profileMode:
+    enabled: true
+    title: Hi there, I'm Graham 👋
+    subtitle: Analytics & data
+    imageUrl: images/graham.jpeg
+    imageTitle: Photo of Graham Wetzler
+    imageWidth: 150
+    imageHeight: 150
+  socialIcons:
+    - name: Mastodon
+      url: https://data-folks.masto.host/@graham
+    - name: LinkedIn
+      url: https://www.linkedin.com/in/grahamwetzler/
+    - name: Github
+      url: https://github.com/grahamwetzler/
+
+outputs:
+  home:
+    - html
+    - rss
+
+custom_css:
+  - css/custom.css
