@@ -1,0 +1,47 @@
+:root {
+  --nav-width: 720px;
+  --main-width: 720px;
+  /* Dracula */
+  --background: rgb(40, 42, 54);
+  --current-line: rgb(68, 71, 90);
+  --foreground: rgb(248, 248, 242);
+  --comment: rgb(98, 114, 164);
+  --cyan: rgb(139, 233, 253);
+  --green: rgb(80, 250, 123);
+  --orange: rgb(255, 184, 108);
+  --pink: rgb(255, 121, 198);
+  --purple: rgb(189, 147, 249);
+  --red: rgb(255, 85, 85);
+  --yellow: rgb(241, 250, 140);
+}
+
+.dark {
+  --theme: var(--background);
+  --entry: var(--current-line);
+  --primary: var(--foreground);
+  --secondary: --var(--primary);
+  --tertiary: --var(--primary);
+  --content: --var(--primary);
+  --hljs-bg: var(--current-line);
+  --code-bg: var(--current-line);
+  --border: var(--comment);
+}
+
+.post-entry {
+  background: none !important;
+  border-radius: none !important;
+  transition: none !important;
+  border: none !important;
+}
+
+.post-entry:active {
+  transform: none !important;
+}
+
+.profile_inner svg {
+  color: var(--purple);
+}
+
+.post-content a {
+  color: var(--purple);
+}
